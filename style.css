@@ -1,0 +1,16 @@
+:root {
+  /* Color */
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%)
+}
+
+body {
+  background-color: var(--color-grayish-blue);
+  font-family: 'Outfit', sans-serif;
+  color: var(--color-light-gray);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
