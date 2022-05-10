@@ -13,7 +13,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![The desktop version](./screenshot/desktop-version.jpg)
+![The desktop version~](./screenshot/desktop-version.jpg)
 ![The mobile version](./screenshot/mobile-version.jpg)
 
 ### Links
