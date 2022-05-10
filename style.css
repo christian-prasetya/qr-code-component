@@ -20,24 +20,24 @@ body {
 }
 
 .container {
-  width: 320px;
-  height: 500px;
+  width: 20rem;
+  height: 31.25rem;
   background-color: var(--color-white);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   margin: 9.375rem auto;
   gap: 0;
   flex-wrap: wrap;
 }
 
 img {
-  width: 320px;
-  height: 320px;
-  border-radius: 10px;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.625rem;
 }
 
 .description {
@@ -45,7 +45,7 @@ img {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
   text-align: center;
   color: var(--color-dark-blue);
@@ -55,4 +55,11 @@ h1 {
 p {
   font-size: 0.9375rem;
   text-align: center;
+}
+
+@media (max-width: 375px) {
+  .container {
+    margin: 5.3125rem auto;
+  }
+
 }
